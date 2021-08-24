@@ -1,6 +1,8 @@
 # MongoDB - C#.NET Driver
-This is a project I made to create a user into MongoDB under the database I made "Address_Book" and in "users" collection.
-You can view All users in the data base, You can view all users from certain city and view certain user
+This is a project I made to create a user into MongoDB under the database "Address_Book" and in "users" collection.
+You can Insert a new record
+You can view All users in the collection
+You can view all users from certain city and view certain user
 
 ![0](https://user-images.githubusercontent.com/80118008/130597116-1fe4f9f1-8342-477c-816b-5ba03d5182a5.PNG)
 
@@ -74,7 +76,7 @@ In the Program Create db instance from MongoDBCRUD and give it the database name
   
  ![LoadRecordsByNameMethod](https://user-images.githubusercontent.com/80118008/130603145-6ba54aff-89be-4a70-8e16-b1ee6402c07c.PNG)
   
-  In Program Create db instance again Create A List using <Person> call it p and should be equal to LoadRecordsByName function from db instance,receive the       generic value as <Person> and say that table is "users" and where the users first name is equal to the textbox text that was given by the user.
+  In Program Create db instance again Create A List using <Person> call it p and should be equal to LoadRecordsByName function from db instance,receive the generic value   as <Person> and say that table is "users" and where the users first name is equal to the textbox text that was given by the user.
   
   ![LoadRecordsByNameButton](https://user-images.githubusercontent.com/80118008/130603671-bd87bca7-4b53-4342-85bf-52b20ef23753.PNG)
 
